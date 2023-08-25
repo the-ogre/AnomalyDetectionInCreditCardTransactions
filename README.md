@@ -31,7 +31,7 @@ The models were evaluated using the following metrics:
 
 - **AUROC (Area Under the Receiver Operating Characteristic Curve):** AUROC is a standard metric for binary classification tasks like fraud detection. It provides a comprehensive measure of a model's ability to distinguish between the two classes across different probability thresholds. A higher AUROC score indicates better model performance in distinguishing between genuine and fraudulent transactions.
 
-### 2.5 Handling Imbalanced Datasets (Extended)
+### 2.5 Handling Imbalanced Datasets
 Imbalanced datasets pose a significant challenge in credit card fraud detection. In addition to the techniques mentioned earlier, we explored several other methods to enhance our model's ability to detect fraudulent transactions:
 
 - **Cost-sensitive Learning:** By assigning different misclassification costs to each class (fraudulent and non-fraudulent), we guided the model to prioritize minimizing the cost associated with misclassifying fraudulent transactions. This technique is particularly useful when the consequences of missing fraudulent cases are severe.
